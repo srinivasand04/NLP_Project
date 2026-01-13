@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+env/
+
+# HuggingFace / Transformers cache
+.cache/
+**/.cache/
+
+# Datasets & processed data
+data/
+*.arrow
+*.parquet
+*.csv
+*.jsonl
+
+# Model weights & checkpoints
+models/
+*.bin
+*.pt
+*.ckpt
+*.safetensors
+
+# Logs
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
